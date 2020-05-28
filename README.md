@@ -1,6 +1,6 @@
 # [hnatiuk.dev](http://hnatiuk.dev/)
 
-My personal blog. Forked from [create-react-app](https://github.com/facebook/create-react-app). Syntax theme based on [vscode-theme-onedark](https://github.com/akamud/vscode-theme-onedark) with small tweaks.
+My personal page. Forked from [create-react-app](https://github.com/facebook/create-react-app). Syntax theme based on [vscode-theme-onedark](https://github.com/akamud/vscode-theme-onedark) with small tweaks.
 
 To run locally, `yarn install`, then `yarn start`, then open [https://localhost:3000](https://localhost:3000/).
 
