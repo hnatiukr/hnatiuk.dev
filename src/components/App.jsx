@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import { MainPage } from '../pages/MainPage';
 
 export function App() {
@@ -7,6 +7,7 @@ export function App() {
     <BrowserRouter>
       <Switch>
         <Route component={MainPage} path='/' exact />
+        <Redirect to={'/'} />
       </Switch>
     </BrowserRouter>
   );
