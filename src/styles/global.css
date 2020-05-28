@@ -35,9 +35,7 @@ body {
     line-height: 120%;
     font-size: 3.5em;
     margin-bottom: 18vmin;
-    cursor: pointer;
-    margin: 0;
-    padding: 0;
+    /* cursor: pointer; */
 }
 
 .title span {
@@ -51,7 +49,7 @@ body {
 /* Main photo */
 
 .photo {
-    background-image: url(../assets/images/test_mobile.png);
+    background-image: url(../assets/images/sj-small.jpg);
     background-position: center center;
     height: 140vmin;
     background-repeat: no-repeat;
@@ -172,7 +170,8 @@ p a:visited {
     }
 
     .photo {
-        background-image: url(../assets/images/test_big.png);
+        background-image: url(../assets/images/sj-big.jpg);
+        height: 80vmin;
     }
 
 }
