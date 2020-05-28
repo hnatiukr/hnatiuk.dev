@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 0 6%;
+}
+
+/* Header */
+
+.logo {
+    font-family: 'Semibold';
+    font-size: 1.6em;
+    line-height: 80%;
+    margin: 12vmin 0 18vmin 0;
+}
+
+.logo_link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.title {
+    font-family: 'Semibold';
+    line-height: 120%;
+    font-size: 3.5em;
+    margin-bottom: 18vmin;
+}
+
+/* Main photo */
+
+.photo {
+    background-image: url(../assets/images/test_mobile.png);
+    background-position: center center;
+    height: 140vmin;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16vmin auto;
+}
+
+/* Main content */
+
+.intriduction h2 {
+    font-family: 'Semibold';
+    font-size: 2.6em;
+    line-height: 160%;
+    margin-top: 3rem;
+}
+
+.introduction_bold {
+    font-family: 'Medium';
+    font-size: 1.6em;
+    line-height: 140%;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.introduction_regular {
+    font-family: 'Regular';
+    font-size: 1.2em;
+    line-height: 160%;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.intriduction p a,
+p a:after,
+p a:visited {
+    font-family: 'Semibold';
+    cursor: pointer;
+}
+
+/* Contacts */
+
+.contacts {
+    margin-bottom: 4rem;
+}
+
+.contacts h2 {
+    font-family: 'Semibold';
+    font-size: 2.6em;
+    line-height: 160%;
+}
+
+.contacts ul li {
+    font-family: 'Regular';
+    font-size: 1.2em;
+    line-height: 180%;
+}
+
+/* Media rules */
+
+@media (min-width: 768px) {
+    body {
+        margin: 0 10vmin;
+    }
+
+    .container {
+        max-width: 940px;
+        margin: 0 auto;
+    }
+
+    .title {
+        font-size: 5em;
+    }
+
+    .photo {
+        background-image: url(../assets/images/main_img.jpg);
+    }
+
+}
+
+/* Animation */
+.animate {
+    -webkit-animation: animate .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+    -moz-animation: animate .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation: animate .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+    -webkit-animation-fill-mode: backwards;
+    -moz-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+}
+
+@-webkit-keyframes animate {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(80px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: translateY(80px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.delaytitle {
+    -webkit-animation-delay: .4s;
+    animation-delay: .4s;
+}
+
+.delaycontent {
+    -webkit-animation-delay: .8s;
+    animation-delay: .8s;
+}

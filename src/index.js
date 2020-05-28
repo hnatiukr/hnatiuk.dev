@@ -1,6 +1,13 @@
+// React
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+
+// Styles
+import './styles/font.css';
+import './styles/default.css';
+import './styles/global.css';
+
+// Components
 import { App } from './components/App';
 
 ReactDOM.render(
