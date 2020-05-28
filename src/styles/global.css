@@ -1,6 +1,9 @@
+html {
+  position: relative;
+}
+
 body {
   margin: 0;
-  position: relative;
 }
 
 ::selection {
@@ -134,9 +137,9 @@ a:focus {
 
 /* Animation */
 .animate {
-  -webkit-animation: animate 0.6s cubic-bezier(0.2, 0.6, 0.2, 1);
-  -moz-animation: animate 0.6s cubic-bezier(0.2, 0.6, 0.2, 1);
-  animation: animate 0.6s cubic-bezier(0.2, 0.6, 0.2, 1);
+  -webkit-animation: animate 1.9s cubic-bezier(0.2, 0.6, 0.2, 1);
+  -moz-animation: animate 1.9s cubic-bezier(0.2, 0.6, 0.2, 1);
+  animation: animate 1.9s cubic-bezier(0.2, 0.6, 0.2, 1);
   -webkit-animation-fill-mode: backwards;
   -moz-animation-fill-mode: backwards;
   animation-fill-mode: backwards;
@@ -174,6 +177,45 @@ a:focus {
 .delaycontent {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
+}
+
+/* GitHub Button */
+
+.github-corner {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+  0 %,
+  100 % {
+    transform: rotate(0);
+  }
+
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+
+@media (max-width: 500px) {
+  .github - corner:hover .octo-arm {
+    animation: none;
+  }
+
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
 }
 
 /* Media rules */

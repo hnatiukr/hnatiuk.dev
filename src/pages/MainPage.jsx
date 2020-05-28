@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 import { Content } from '../components/Content';
 import { Contacts } from '../components/Contacts';
+
 import { Scroll } from '../components/Scroll';
+import { GitHub } from '../components/GitHub';
 
 export function MainPage() {
   const MY_NAME = 'Roman Hnatiuk';
@@ -24,6 +27,7 @@ export function MainPage() {
         <Content />
         <Contacts />
       </div>
+      {window.innerWidth > 768 && <GitHub />}
       <Scroll />
     </>
   );
