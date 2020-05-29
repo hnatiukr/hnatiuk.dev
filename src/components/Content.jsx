@@ -5,45 +5,40 @@ export function Content() {
     <div className='intriduction'>
       <h2>Introduction</h2>
       <p className='introduction_bold'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id culpa magnam
-        earum explicabo cupiditate eos ad magni perspiciatis ex harum, sed
-        eveniet accusantium quaerat adipisci. Veniam odio inventore omnis
-        consequuntur dolore animi tempora totam expedita maxime iusto corrupti
-        tempore dignissimos perspiciatis nobis deserunt nostrum placeat qui
-        voluptatem porro, esse sit magni! Doloribus nobis inventore, vel aut
-        fugiat laudantium molestiae, similique sunt consequatur nisi hic.
+        Hello! My name is Roman, I am software engineer from Ukraine, Kiev.
       </p>
 
       <p className='introduction_regular'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id culpa magnam
-        earum explicabo cupiditate eos ad magni perspiciatis ex harum, sed
-        eveniet accusantium quaerat adipisci. Veniam odio inventore omnis
-        consequuntur dolore animi tempora totam expedita maxime iusto corrupti
-        tempore dignissimos perspiciatis nobis deserunt nostrum placeat qui
-        voluptatem porro, esse sit magni! Doloribus nobis inventore, vel aut
-        fugiat laudantium molestiae, similique sunt consequatur nisi hic,
-        adipisci aspernatur voluptatem repudiandae nihil libero odio porro
-        error! Accusantium delectus voluptate blanditiis eos numquam officia
-        commodi ipsa fuga sed fugit repellat nostrum rem, est sit voluptatem
-        quidem ratione mollitia, quod, quas nisi reiciendis laudantium earum
-        sunt impedit! Nulla incidunt et cumque, voluptatum fugit velit cum omnis
-        consequuntur quasi voluptas rerum nisi libero, non veritatis suscipit.
+        Despite a little experience in programming, I devoted many years to the
+        development of computer programs and computer science. At the age of 14,
+        he first made up a web application, and after a couple of years, he
+        began working with first commercial projects.
       </p>
 
       <p className='introduction_regular'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id culpa magnam
-        earum explicabo cupiditate eos ad magni perspiciatis ex harum, sed
-        eveniet accusantium quaerat adipisci. Veniam odio inventore omnis
-        consequuntur dolore animi tempora totam expedita maxime iusto corrupti
-        tempore dignissimos perspiciatis nobis deserunt nostrum placeat qui
-        voluptatem porro, esse sit magni! Doloribus nobis inventore, vel aut
-        fugiat laudantium molestiae, similique sunt consequatur nisi hic,
-        adipisci aspernatur voluptatem repudiandae nihil libero odio porro
-        error! Accusantium delectus voluptate blanditiis eos numquam officia
-        commodi ipsa fuga sed fugit repellat nostrum rem, est sit voluptatem
-        quidem ratione mollitia, quod, quas nisi reiciendis laudantium earum
-        sunt impedit! Nulla incidunt et cumque, voluptatum fugit velit cum omnis
-        consequuntur quasi voluptas rerum nisi libero, non veritatis suscipit.
+        I enjoy creating things that live on the internet, whether that be
+        websites, applications, or anything in between. My goal is to always
+        build products which arouse my interest and benefit society.
+      </p>
+
+      <p className='introduction_regular'>
+        I understand that a programmer learns every day. My goal is to learn how
+        to write any applications and sites, not specific ones. To be able to
+        analyze a problem, formulate an algorithm for its solution, and only
+        then implement this algorithm in code.
+      </p>
+
+      <p className='introduction_regular'>
+        Here are a few technologies I'am working with:{' '}
+        <span className='selected'>
+          JavaScript, TypeScript, React, Node.js, HTML & (S)CSS
+        </span>
+        .
+      </p>
+
+      <p className='introduction_regular'>
+        If you want to propose a joint project or work on something together,
+        contact me in a convenient way. Contact details are listed below.
       </p>
     </div>
   );
