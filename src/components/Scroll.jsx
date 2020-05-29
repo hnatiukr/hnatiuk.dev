@@ -8,7 +8,7 @@ export function Scroll() {
         <img
           className='scroll_top'
           src={require('../assets/images/up.svg')}
-          alt=''
+          alt='To top'
         />
       </ScrollToTop>
     </>
