@@ -136,7 +136,7 @@ a:focus {
 }
 
 .selected {
-  background: rgba(255, 217, 0, 0.99);
+  background: #ffd900fc;
   font-family: 'Medium';
 }
 

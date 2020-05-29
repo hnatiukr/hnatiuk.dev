@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+}
+
+#background {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+#logocontainer {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 16vh;
+    height: 16vh;
+    margin-left: -9vh;
+    margin-top: -9vh;
+    overflow: hidden;
+    transition: background-color 500ms;
+}
+
+#pelogo {
+    display: block;
+    position: absolute;
+    left: .5vh;
+    top: .5vh;
+    width: 15vh;
+    height: 15vh;
+    background: #ffd900fc;
+    background-size: contain;
+    font-family: 'Regular';
+    font-size: 10vh;
+    color: #000;
+    text-align: center;
+    line-height: 15vh;
+}
+
+.loader {
+    display: block;
+    position: absolute;
+    background-color: #000;
+}
+
+/* Animation */
+
+@keyframes slide1 {
+    50% {
+        width: 16vh;
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: 16vh;
+    }
+}
+
+@keyframes slide2 {
+    50% {
+        height: 16vh;
+        margin-top: 0;
+    }
+
+    100% {
+        margin-top: 16vh;
+    }
+}
+
+@keyframes slide3 {
+    50% {
+        width: 16vh;
+        margin-right: 0;
+    }
+
+    100% {
+        margin-right: 16vh;
+    }
+}
+
+@keyframes slide4 {
+    50% {
+        height: 16vh;
+        margin-bottom: 0
+    }
+
+    100% {
+        margin-bottom: 16vh;
+    }
+}
