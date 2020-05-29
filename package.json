@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@jest/globals": "^26.0.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -35,6 +36,9 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^7.1.0",
+    "jest": "^26.0.1",
+    "jest-cli": "^26.0.1",
     "react-test-renderer": "^16.13.1",
     "svg-sprite-loader": "^5.0.0"
   }
