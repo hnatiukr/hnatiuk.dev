@@ -4,7 +4,7 @@
 
 My personal page
 
-To run locally, `yarn install`, then `yarn start`, then open [https://localhost:3000](https://localhost:3000/).
+To run locally, `npm /or/ yarn install`, then `yarn start / or / npm run start`, then open [https://localhost:3000](https://localhost:3000/).
 
 ## Code usage
 
