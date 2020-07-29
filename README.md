@@ -2,7 +2,7 @@
 
 ![Node.js CI](https://github.com/mort-gh/hnatiuk.dev/workflows/Node.js%20CI/badge.svg)
 
-My personal page. Forked from [create-react-app](https://github.com/facebook/create-react-app). Syntax theme based on [vscode-theme-onedark](https://github.com/akamud/vscode-theme-onedark) with small tweaks.
+My personal page
 
 To run locally, `yarn install`, then `yarn start`, then open [https://localhost:3000](https://localhost:3000/).
 
