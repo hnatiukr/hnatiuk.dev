@@ -29,9 +29,9 @@ export function Content() {
       </p>
 
       <p className='introduction_regular'>
-        Here are a few technologies I'am working with:{' '}
+        Here are a few technologies I'am working with:
         <span className='selected'>
-          JavaScript, Python, React, Angular, Vue, Telegram API
+          JavaScript, Node.js, React, Python, Telegram API
         </span>
         .
       </p>
