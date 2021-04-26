@@ -1,0 +1,39 @@
+::selection {
+    background: #fcd900;
+}
+
+::-moz-selection {
+    background: #fcd900;
+}
+
+h1:after,
+h2:after {
+    display: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    padding: 4px 8px;
+
+    background-color: #fcd900;
+    text-decoration: none;
+}
+
+.selected {
+    background-color: #fcd900;
+}
+
+@media (max-width: 768px) {
+    .mobile_link {
+        display: inline-block;
+
+        padding: 10px 10px;
+
+        font-size: 20px;
+    }
+}
