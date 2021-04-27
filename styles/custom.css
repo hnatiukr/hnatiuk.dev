@@ -14,14 +14,18 @@ h2:after {
 a {
     color: inherit;
     text-decoration: none;
+
+    transition: all 0.3s;
 }
 
 a:focus,
 a:hover {
+    position: relative;
     padding: 4px 8px;
 
     background-color: #fcd900;
     text-decoration: none;
+
 }
 
 .selected {
