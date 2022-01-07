@@ -1,7 +1,14 @@
-body, html {
-    color: rgba(0,0,0,.75);
+:root {
+    --strong-c: rgba(0, 0, 0, .75);
+    --weak-c: #ffffff;
+    --accent-c: #fcd900;
+}
+
+body,
+html {
+    color: var(--strong-c);
     font-size: 16px;
-    font-family: Lato,Helvetica Neue,Helvetica,sans-serif;
+    font-family: Lato, Helvetica Neue, Helvetica, sans-serif;
     font-variant-ligatures: common-ligatures;
     line-height: 1.67;
     -webkit-font-smoothing: antialiased;
@@ -18,11 +25,21 @@ body {
     margin: 0;
 }
 
-article, aside, footer, header, nav, section {
+article,
+aside,
+footer,
+header,
+nav,
+section {
     display: block;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 1.8em 0;
     line-height: 1.33;
 }
@@ -36,17 +53,22 @@ a {
     color: inherit;
     transition: all 0.3s;
     text-decoration: underline;
-    text-decoration-skip: ink
-    background-color: transparent;
+    text-decoration-skip: ink background-color: transparent;
     -webkit-text-decoration-skip: objects;
 }
 
-b, strong {
+b,
+strong {
     font-weight: inherit;
     font-weight: bolder;
 }
 
-blockquote, dl, ol, p, pre, ul {
+blockquote,
+dl,
+ol,
+p,
+pre,
+ul {
     margin: 1.2em 0;
 }
 
@@ -61,15 +83,15 @@ blockquote, dl, ol, p, pre, ul {
 }
 
 ::selection {
-    background: #fcd900;
+    background-color: var(--accent-c);
 }
 
 ::-moz-selection {
-    background: #fcd900;
+    background-color: var(--accent-c);
 }
 
 .selected {
-    background-color: #fcd900;
+    background-color: var(--accent-c);
 }
 
 .contacts {
