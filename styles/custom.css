@@ -1,61 +1,54 @@
 body,
 html {
-    font-size: 16px;
-    line-height: 24px;
-    font-family: 'Graphik', sans-serif;
-    color: hsl(0 0% 0%);
-    background-color: hsl(0 0% 100%);
-    scroll-behavior: smooth;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Graphik', sans-serif;
+  color: hsl(0 0% 0%);
+  background-color: hsl(0 0% 100%);
+  scroll-behavior: smooth;
 }
 
 h1 {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 
-    font-size: 48px;
-    line-height: 60px;
+  font-size: 48px;
+  line-height: 60px;
 }
 
 h2 {
-    margin-bottom: 60px;
+  margin-bottom: 40px;
 
-    font-size: 36px;
-    line-height: 42px;
-}
-
-h3 {
-    margin-bottom: 40px;
-
-    font-size: 24px;
-    line-height: 30px;
+  font-size: 24px;
+  line-height: 30px;
 }
 
 p {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 a {
-    color: hsl(0 0% 0%);
+  color: hsl(0 0% 0%);
 }
 
 .stackedit__html {
-    max-width: 750px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 30px;
-    padding-right: 30px;
+  max-width: 750px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .selected {
-    padding: 0.1em 0.2em;
+  padding: 0.1em 0.2em;
 
-    background-color: hsl(49 100% 58%);
+  background-color: hsl(49 100% 58%);
 }
 
 @media screen and (max-width: 768px) {
-    .contacts {
-        flex-direction: column;
-        justify-content: center;
-    }
+  .contacts {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
