@@ -1,12 +1,4 @@
 @font-face {
-  font-family: 'Graphik';
-  src: url('../fonts/graphik-regular.woff2') format('woff2');
-  font-style: normal;
-  font-weight: normal;
-  font-display: fallback;
-}
-
-@font-face {
   font-family: 'e-Ukraine';
   src: url('../fonts/e-Ukraine-Light.otf') format('opentype');
   font-style: auto;
