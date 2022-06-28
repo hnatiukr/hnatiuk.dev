@@ -11,7 +11,7 @@
   src: url('../fonts/e-Ukraine-Light.otf') format('opentype');
   font-style: auto;
   font-weight: 300;
-  font-display: swap;
+  font-display: fallback;
 }
 
 @font-face {
@@ -19,7 +19,7 @@
   src: url('../fonts/e-Ukraine-Regular.otf') format('opentype');
   font-style: auto;
   font-weight: 400;
-  font-display: swap;
+  font-display: fallback;
 }
 
 @font-face {
@@ -27,7 +27,7 @@
   src: url('../fonts/e-Ukraine-Medium.otf') format('opentype');
   font-style: auto;
   font-weight: 500;
-  font-display: swap;
+  font-display: fallback;
 }
 
 @font-face {
@@ -35,7 +35,7 @@
   src: url('../fonts/e-Ukraine-Bold.otf') format('opentype');
   font-style: auto;
   font-weight: 700;
-  font-display: swap;
+  font-display: fallback;
 }
 
 @font-face {
@@ -43,7 +43,7 @@
   src: url('../fonts/e-UkraineHead-Light.otf') format('opentype');
   font-style: auto;
   font-weight: 300;
-  font-display: swap;
+  font-display: fallback;
 }
 
 @font-face {
@@ -51,5 +51,5 @@
   src: url('../fonts/e-UkraineHead-Regular.otf') format('opentype');
   font-style: auto;
   font-weight: 400;
-  font-display: swap;
+  font-display: fallback;
 }
