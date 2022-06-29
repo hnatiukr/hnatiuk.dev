@@ -4,6 +4,7 @@ html {
   font-size: 16px;
   font-family: 'e-Ukraine', sans-serif;
   font-weight: 300;
+  font-style: normal;
   line-height: 24px;
 
   background-color: hsl(0 0% 100%);
@@ -17,9 +18,15 @@ body {
   padding: 0 30px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'e-Ukraine-Head', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'e-Ukraine Head', sans-serif;
   font-weight: 300;
+  font-style: normal;
 }
 
 h1 {
@@ -40,10 +47,7 @@ p {
   margin: 20px 0;
 }
 
-a {
-  color: #6d758d;
-}
-
+a,
 strong {
   color: #6d758d;
 }

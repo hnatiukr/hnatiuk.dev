@@ -1,47 +1,26 @@
 @font-face {
-  font-family: 'e-Ukraine';
-  src: url('../fonts/e-Ukraine-Light.otf') format('opentype');
-  font-style: auto;
+  font-family: 'e-Ukraine Head';
+  src: url('../fonts/e-UkraineHead-Light.woff2') format('woff2'),
+    url('../fonts/e-UkraineHead-Light.woff') format('woff');
   font-weight: 300;
+  font-style: normal;
   font-display: fallback;
 }
 
 @font-face {
   font-family: 'e-Ukraine';
-  src: url('../fonts/e-Ukraine-Regular.otf') format('opentype');
-  font-style: auto;
-  font-weight: 400;
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: 'e-Ukraine';
-  src: url('../fonts/e-Ukraine-Medium.otf') format('opentype');
-  font-style: auto;
-  font-weight: 500;
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: 'e-Ukraine';
-  src: url('../fonts/e-Ukraine-Bold.otf') format('opentype');
-  font-style: auto;
-  font-weight: 700;
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: 'e-Ukraine-Head';
-  src: url('../fonts/e-UkraineHead-Light.otf') format('opentype');
-  font-style: auto;
+  src: url('../fonts/e-Ukraine-Light.woff2') format('woff2'),
+    url('../fonts/e-Ukraine-Light.woff') format('woff');
   font-weight: 300;
+  font-style: normal;
   font-display: fallback;
 }
 
 @font-face {
-  font-family: 'e-Ukraine-Head';
-  src: url('../fonts/e-UkraineHead-Regular.otf') format('opentype');
-  font-style: auto;
-  font-weight: 400;
+  font-family: 'e-Ukraine';
+  src: url('../fonts/e-Ukraine-Regular.woff2') format('woff2'),
+    url('../fonts/e-Ukraine-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
   font-display: fallback;
 }
