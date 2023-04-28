@@ -1,7 +1,7 @@
 :root {
 	--color-weak: hsl(0 0% 100%);
 	--color-strong: rgb(14, 16, 26);
-	--color-accent-strong: #03c197;
+	--color-accent-strong: #007d9c;
 	--color-accent-weak: #6d758d;
 
 	--font-family-base: 'e-Ukraine', sans-serif;
@@ -34,7 +34,7 @@ html {
 body {
 	max-width: 750px;
 
-	/*	margin: 80px auto;*/
+	margin: 80px auto;
 	padding: 0 30px;
 }
 
