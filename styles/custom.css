@@ -4,8 +4,7 @@
 	--color-accent-strong: #007d9c;
 	--color-accent-weak: #6d758d;
 
-	--font-family-base: 'e-Ukraine', sans-serif;
-	--font-family-heading: 'e-Ukraine Head', sans-serif;
+	--font-family-base: Verdana, sans-serif;
 
 	--font-size-base: 16px;
 	--font-size-heading-1: 48px;
@@ -44,7 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: var(--font-family-heading);
+	font-family: var(--font-weight-base);
 	font-weight: var(--font-weight-base);
 }
 
